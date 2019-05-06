@@ -6,7 +6,6 @@ def my_collect(collection)
   while i<collection.length
   yield collection[i].upcase
   i=i+1 
-  new_collection<< my_collect(collection)
 end 
 end 
 
