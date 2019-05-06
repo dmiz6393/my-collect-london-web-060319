@@ -1,11 +1,11 @@
-array = ["Tim Jones", "Tom Smith", "Jim Campagno"] 
+collection = ['ruby', 'javascript', 'python', 'objective-c']
 
-def my_collect(array)
+def my_collect(collection)
   i=0 
-  while i<array.length
-  yield array.split("").first 
+  while i<collection.length
+  yield collection.upcase   
   i=i+1 
 end 
-array
+collection
 end 
 
