@@ -5,4 +5,6 @@ def my_collect(array)
   while i<array.length
   yield array.split("").first 
   i=i+1 
+end 
+
 
