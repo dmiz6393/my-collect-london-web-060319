@@ -6,6 +6,6 @@ def my_collect(collection)
   yield collection[i].upcase
   i=i+1 
 end 
-collection
+my_collect(collection)
 end 
 
