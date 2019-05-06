@@ -1,18 +1,12 @@
-collection = ['ruby', 'javascript', 'python', 'objective-c']
-
-def my_collect(collection)
-  new_collection=[]
+def my_collect(array)
+  new_array=[]
   i=0 
-  while i<collection.length
-  new_collection<< yield(collection[i])
+  while i<array.length
+  new_collection<< yield(array[i])
   i=i+1 
 end 
 new_collection
 end
 
-array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-my_collect(array) do |name|
-  name.split(" ").first
-end
 
 
